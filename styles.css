@@ -1,3 +1,5 @@
+/* Global Styles */
+
 html {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -10,6 +12,14 @@ header {
     justify-content: flex-end;
     align-items: center;
 }
+
+/* Structure Styles */
+
+#frontpage-main {
+    
+}
+
+/* Component Styles */
 
 .button-primary {
     color: #E6E6E6;
