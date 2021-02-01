@@ -54,20 +54,25 @@ nav ul {
 }
 
 nav li {
-    opacity: 0; /* hide before animation */
     margin-bottom: 0.25rem;
 }
 
-nav li:nth-child(1) {
-    animation: slideInFromBottom 1s 0s forwards;
-}
+@media (prefers-reduced-motion: no-preference) {
+    nav li {
+        opacity: 0; /* hide before animation */
+    }
 
-nav li:nth-child(2) {
-    animation: slideInFromBottom 1s 0.1s forwards;
-}
+    nav li:nth-child(1) {
+        animation: slideInFromBottom 1s 0s forwards;
+    }
 
-nav li:nth-child(3) {
-    animation: slideInFromBottom 1s 0.2s forwards;
+    nav li:nth-child(2) {
+        animation: slideInFromBottom 1s 0.1s forwards;
+    }
+
+    nav li:nth-child(3) {
+        animation: slideInFromBottom 1s 0.2s forwards;
+    }
 }
 
 nav a {
@@ -116,8 +121,13 @@ footer {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    opacity: 0; /* hide before animation */
-    animation: slideInFromLeft 1s 0s forwards;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    #headshot {
+        opacity: 0; /* hide before animation */
+        animation: slideInFromLeft 1s 0s forwards;
+    }
 }
 
 #headshot:before {
@@ -152,7 +162,6 @@ footer {
 /* Reactive Design */
 
 @media only screen and (max-width: 1200px) {
-
     #frontpage-main {
         width: 450px;
         flex-direction: column;
@@ -166,11 +175,9 @@ footer {
         text-align: center;
         margin: 0;
     }
-
 }
 
 @media only screen and (max-width: 600px) {
-
     #frontpage-main {
         width: 350px;
     }
@@ -178,5 +185,4 @@ footer {
     html {
         font-size: 16px;
     }
-
 }
