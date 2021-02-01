@@ -5,7 +5,6 @@
 .icon-badge {
     display: inline-flex;
     border-radius: var(--icon-badge-border-radius);
-    background-color: magenta;
 }
 
 .icon-badge-icon-container {

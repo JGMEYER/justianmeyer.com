@@ -14,7 +14,7 @@ function IconBadge(props) {
 }
 
 IconBadge.propTypes = {
-    icon: PropTypes.object.isRequired,
+    icon: PropTypes.string.isRequired,
     iconBgColor: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
 }
