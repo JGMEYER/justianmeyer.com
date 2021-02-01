@@ -6,7 +6,7 @@ function Header() {
             <p style={{ color: "#FF0000", width: "100%", marginLeft: "1rem" }}>
                 In Development
             </p>
-            <button class="button-primary">Contact</button>
+            <button className="button-primary">Contact</button>
         </header>
     );
 }

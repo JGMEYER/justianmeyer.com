@@ -21,10 +21,10 @@ function FrontMain() {
                         <li><Link to="/certifications">Certifications</Link></li>
                     </ul>
                     <a href="https://github.com/JGMEYER" target="_blank" rel="noopener noreferrer">
-                        <img className="icon" src={github_64} />
+                        <img className="icon" src={github_64} alt="github icon" />
                     </a>
                     <a href="https://www.linkedin.com/in/justianmeyer/" target="_blank" rel="noopener noreferrer">
-                        <img className="icon" src={linkedin_64} />
+                        <img className="icon" src={linkedin_64} alt="linkedin icon" />
                     </a>
                 </nav>
             </section>
