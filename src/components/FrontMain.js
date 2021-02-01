@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import './FrontMain.css';
 import github_64 from '../images/icons/github_64.png';
 import linkedin_64 from '../images/icons/linkedin_64.webp';
@@ -14,9 +16,9 @@ function FrontMain() {
                 <h2>Frontend Engineer</h2>
                 <nav>
                     <ul>
-                        <li><a href="#">About Me</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Certifications</a></li>
+                        <li><Link to="/aboutme">About Me</Link></li>
+                        <li><Link to="/portfolio">Portfolio</Link></li>
+                        <li><Link to="/certifications">Certifications</Link></li>
                     </ul>
                     <a href="https://github.com/JGMEYER" target="_blank" rel="noopener noreferrer">
                         <img className="icon" src={github_64} />
