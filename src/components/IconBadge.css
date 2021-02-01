@@ -1,0 +1,35 @@
+:root {
+    --icon-badge-border-radius: 0.5rem;
+}
+
+.icon-badge {
+    display: inline-flex;
+    border-radius: var(--icon-badge-border-radius);
+    background-color: magenta;
+}
+
+.icon-badge-icon-container {
+    display: inline-block;
+    width: 1.86rem;
+    height: 1.86rem;
+    color: white;
+    border-radius: var(--icon-badge-border-radius) 0 0 var(--icon-badge-border-radius);
+    content: "X";
+}
+
+.icon-badge-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+    padding: 0.33rem;
+}
+
+.icon-badge-name-container {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: white;
+    background-color: #000000;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(59,59,59,1) 100%);
+    border-radius: 0 var(--icon-badge-border-radius) var(--icon-badge-border-radius) 0;
+    padding: 0.5rem 0.5rem 0.5rem 0.45rem;
+}
