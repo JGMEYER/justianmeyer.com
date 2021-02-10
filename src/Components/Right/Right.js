@@ -11,8 +11,6 @@ function Right() {
             </div>
             <div className="right-content" style={{ backgroundColor: 'var(--color-d)' }}>
             </div>
-            <div className="right-content" style={{ backgroundColor: 'var(--color-e)' }}>
-            </div>
         </div>
     );
 }

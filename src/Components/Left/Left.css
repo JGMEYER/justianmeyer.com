@@ -1,3 +1,5 @@
+/* Component Styles */
+
 .left-container {
     position: fixed;
     width: 38%;
@@ -7,4 +9,20 @@
 
 .about-container {
     padding: 3rem 2.5rem;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 0.5rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 38%;
+    background-color: rgb(49, 49, 49);
+    color: #dadada;
+    font-size: 0.75rem;
+    text-align: center;
 }

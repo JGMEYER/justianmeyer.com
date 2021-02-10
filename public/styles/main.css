@@ -109,12 +109,6 @@ nav a {
 
 /* Component Styles */
 
-.icon {
-    width: 32px;
-    height: 32px;
-    margin-right: 0.5rem;
-}
-
 .button-primary {
     color: #E6E6E6;
     background-color: #A6A6A6;
