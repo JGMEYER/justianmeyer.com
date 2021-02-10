@@ -1,9 +1,12 @@
 import './Right.css';
 
+import CertificationsContent from '../CertificationsContent/CertificationsContent'
+
 function Right() {
     return (
         <div className="right-container">
             <div className="right-content-wrapper" style={{ backgroundColor: 'var(--color-a)' }}>
+                <CertificationsContent />
             </div>
             <div className="right-content-wrapper" style={{ backgroundColor: 'var(--color-b)' }}>
             </div>

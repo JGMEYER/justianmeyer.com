@@ -11,10 +11,34 @@
     padding: 3rem 2.5rem;
 }
 
-.icon {
+.social-icon {
     width: 32px;
     height: 32px;
     margin-right: 0.5rem;
+}
+
+.contact-wrapper {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.contact-button {
+    width: 100%;
+    color: white;
+    background-color: var(--color-c);
+    font-weight: bold;
+    border: none;
+    outline: inherit;
+    border-radius: 5px;
+    height: 2rem;
+    padding: 0 0.75rem;
+    margin-right: 2rem;
+}
+
+.contact-button:active {
+    color: var(--color-c);
+    background-color: white;
+    border: 1px var(--color-c) solid;
 }
 
 footer {
