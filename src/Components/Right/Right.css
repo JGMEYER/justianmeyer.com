@@ -4,3 +4,7 @@
     overflow: scroll;
     background-color: var(--color-a);
 }
+
+.right-content {
+    min-height: 500px;
+}

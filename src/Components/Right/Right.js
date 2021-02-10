@@ -3,11 +3,16 @@ import './Right.css';
 function Right() {
     return (
         <div className="right-container">
-            <div style={{ minHeight: '500px', backgroundColor: 'var(--color-a)' }}></div>
-            <div style={{ minHeight: '500px', backgroundColor: 'var(--color-b)' }}></div>
-            <div style={{ minHeight: '500px', backgroundColor: 'var(--color-c)' }}></div>
-            <div style={{ minHeight: '500px', backgroundColor: 'var(--color-d)' }}></div>
-            <div style={{ minHeight: '500px', backgroundColor: 'var(--color-e)' }}></div>
+            <div className="right-content" style={{ backgroundColor: 'var(--color-a)' }}>
+            </div>
+            <div className="right-content" style={{ backgroundColor: 'var(--color-b)' }}>
+            </div>
+            <div className="right-content" style={{ backgroundColor: 'var(--color-c)' }}>
+            </div>
+            <div className="right-content" style={{ backgroundColor: 'var(--color-d)' }}>
+            </div>
+            <div className="right-content" style={{ backgroundColor: 'var(--color-e)' }}>
+            </div>
         </div>
     );
 }
