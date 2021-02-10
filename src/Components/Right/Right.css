@@ -5,7 +5,7 @@
     background-color: var(--color-a);
 }
 
-.right-content {
+.right-content-wrapper {
     min-height: 500px;
     padding: 2rem;
 }
