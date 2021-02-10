@@ -118,11 +118,3 @@ nav a {
     font-weight: bold;
     text-decoration: none;
 }
-
-/* Reactive Design */
-
-@media only screen and (max-width: 600px) {
-    html {
-        font-size: 18px;
-    }
-}

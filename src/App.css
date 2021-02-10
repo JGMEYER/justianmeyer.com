@@ -1,3 +1,11 @@
 .App {
     height: 100%;
 }
+
+/* Reactive Design */
+
+@media only screen and (max-width: 1350px) {
+    html {
+        font-size: 22px;
+    }
+}

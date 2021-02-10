@@ -17,9 +17,9 @@ function Left() {
                         <img className="social-icon" src={linkedin_64} alt="linkedin icon" />
                     </a>
                 </div>
-                <div className="contact-wrapper">
-                    <button className="contact-button">Contact</button>
-                </div>
+            </div>
+            <div className="contact-wrapper">
+                <button className="contact-button">Contact</button>
             </div>
         </div>
     );

@@ -8,6 +8,7 @@
 }
 
 .about-container {
+    width: 300px;
     padding: 3rem 2.5rem;
 }
 
@@ -18,13 +19,15 @@
 }
 
 .contact-wrapper {
-    width: 200px;
-    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .contact-button {
-    width: 100%;
-    margin-top: 100px;
+    width: 200px;
+    margin-bottom: 100px;
     color: white;
     background-color: var(--color-c);
     font-weight: bold;
@@ -39,4 +42,17 @@
     color: var(--color-c);
     background-color: white;
     border: 1px var(--color-c) solid;
+}
+
+/* Reactive Design */
+
+@media only screen and (max-width: 1250px) {
+    .left-container {
+        position: static; /* default */
+        width: 100%;
+    }
+
+    .about-container {
+        padding: 3rem 30px;
+    }
 }

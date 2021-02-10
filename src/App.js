@@ -1,5 +1,3 @@
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-
 import './App.css';
 import InDevelopment from './Components/InDevelopment/InDevelopment'
 import Main from './Components/Main/Main';
