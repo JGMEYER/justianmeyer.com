@@ -1,0 +1,6 @@
+.right-container {
+    width: 62%;
+    margin-left: 38%;
+    overflow: scroll;
+    background-color: var(--color-a);
+}

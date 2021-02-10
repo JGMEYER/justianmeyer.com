@@ -1,0 +1,10 @@
+.left-container {
+    position: fixed;
+    width: 38%;
+    height: 100%;
+    background-color: var(--color-0);
+}
+
+.about-container {
+    padding: 3rem 2.5rem;
+}

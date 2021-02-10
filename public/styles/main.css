@@ -44,6 +44,15 @@
 html {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+#root {
+    height: 100%;
 }
 
 header {
@@ -103,7 +112,7 @@ nav a {
 .icon {
     width: 32px;
     height: 32px;
-    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .button-primary {
