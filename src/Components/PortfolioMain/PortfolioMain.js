@@ -1,11 +1,11 @@
 import './PortfolioMain.css';
-import IconBadge from './IconBadge.js';
-import amplifyIcon from '../images/icons/amplify-white.svg';
-import css3Icon from '../images/icons/css3-white.svg';
-import html5Icon from '../images/icons/html5-white.svg';
-import jsIcon from '../images/icons/js-white.svg';
-import gitHubIcon from '../images/icons/github-white.svg';
-import reactIcon from '../images/icons/react-white.svg';
+import IconBadge from '../IconBadge/IconBadge';
+import amplifyIcon from '../../images/icons/amplify-white.svg';
+import css3Icon from '../../images/icons/css3-white.svg';
+import html5Icon from '../../images/icons/html5-white.svg';
+import jsIcon from '../../images/icons/js-white.svg';
+import gitHubIcon from '../../images/icons/github-white.svg';
+import reactIcon from '../../images/icons/react-white.svg';
 
 function PortfolioMain() {
     return (

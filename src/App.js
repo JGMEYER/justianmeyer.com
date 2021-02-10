@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import Header from './components/Header.js';
-import FrontMain from './components/FrontMain.js';
-import PortfolioMain from './components/PortfolioMain.js';
-import Footer from './components/Footer.js';
+import Header from './Components/Header/Header';
+import FrontMain from './Components/FrontMain/FrontMain';
+import PortfolioMain from './Components/PortfolioMain/PortfolioMain';
+import Footer from './Components/Footer/Footer.js';
 
 function App() {
     return (

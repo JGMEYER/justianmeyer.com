@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 
 import './FrontMain.css';
-import github_64 from '../images/icons/github_64.png';
-import linkedin_64 from '../images/icons/linkedin_64.webp';
+import github_64 from '../../images/icons/github_64.png';
+import linkedin_64 from '../../images/icons/linkedin_64.webp';
 
 function FrontMain() {
     return (
