@@ -24,6 +24,7 @@
 
 .contact-button {
     width: 100%;
+    margin-top: 100px;
     color: white;
     background-color: var(--color-c);
     font-weight: bold;
@@ -32,21 +33,10 @@
     border-radius: 5px;
     height: 2rem;
     padding: 0 0.75rem;
-    margin-right: 2rem;
 }
 
 .contact-button:active {
     color: var(--color-c);
     background-color: white;
     border: 1px var(--color-c) solid;
-}
-
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 38%;
-    background-color: rgb(49, 49, 49);
-    color: #dadada;
-    font-size: 0.75rem;
-    text-align: center;
 }

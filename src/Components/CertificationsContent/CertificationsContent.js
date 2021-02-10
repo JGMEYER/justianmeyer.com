@@ -3,6 +3,7 @@ import './CertificationsContent.css';
 function CertificationsContent() {
     return (
         <div>
+            <h3>Certifications</h3>
             <div className="certification-wrapper">
                 Front-End Engineer Career Path (350 Hours)
             </div>

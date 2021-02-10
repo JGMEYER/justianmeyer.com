@@ -14,6 +14,10 @@ function Right() {
             </div>
             <div className="right-content-wrapper" style={{ backgroundColor: 'var(--color-d)' }}>
             </div>
+
+            <footer>
+                <p>&copy; Justian Meyer, 2021</p>
+            </footer>
         </div>
     );
 }

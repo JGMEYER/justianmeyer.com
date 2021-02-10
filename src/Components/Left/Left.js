@@ -21,10 +21,6 @@ function Left() {
                     <button className="contact-button">Contact</button>
                 </div>
             </div>
-
-            <footer>
-                <p>&copy; Justian Meyer, 2021</p>
-            </footer>
         </div>
     );
 }
