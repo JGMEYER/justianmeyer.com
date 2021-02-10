@@ -26,10 +26,10 @@ footer p {
 
 /* Reactive Design */
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1300px) {
     .right-container {
         width: 100%;
         margin-left: 0;
-        overflow: visible; /* default */
+        overflow: visible;
     }
 }

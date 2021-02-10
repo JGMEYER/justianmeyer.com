@@ -8,7 +8,7 @@ function Left() {
             <div className="about-container">
                 <h1>Justian Meyer</h1>
                 <h2>Frontend Engineer</h2>
-                <p>Self-taught Frontend Engineer with a Backend Engineering background. Looking for new employment.</p>
+                <p>Self-taught Frontend Engineer with a Backend Engineering background.</p>
                 <div className="social-container">
                     <a href="https://github.com/JGMEYER" target="_blank" rel="noopener noreferrer">
                         <img className="social-icon" src={github_64} alt="github icon" />

@@ -78,8 +78,10 @@ h2 {
 }
 
 h3 {
+    color: white;
     margin: 0;
     margin-bottom: 1rem;
+    text-transform: uppercase;
 }
 
 p {
