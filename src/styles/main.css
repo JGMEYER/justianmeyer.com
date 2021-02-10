@@ -1,3 +1,20 @@
+/* Global Variables */
+
+:root {
+    --color-dark-blue: hsl(191, 44%, 35%);
+    --color-light-blue: hsl(188, 51%, 56%);
+    --color-orange: hsl(14, 81%, 65%);
+    --color-red: hsl(6, 73%, 55%);
+    --color-brown: hsl(356, 59%, 15%);
+
+    --color-0: white;
+    --color-a: var(--color-dark-blue);
+    --color-b: var(--color-light-blue);
+    --color-c: var(--color-orange);
+    --color-d: var(--color-red);
+    --color-e: var(--color-brown);
+}
+
 /* Animations */
 
 @keyframes slideInFromLeft {
