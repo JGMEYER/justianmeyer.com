@@ -1,0 +1,77 @@
+/* Component Styles */
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 38%;
+    height: 100%;
+    background-color: var(--color-0);
+}
+
+.about-container {
+    width: 400px;
+    padding: 3rem 2.5rem;
+    margin-top: 70px;
+}
+
+.about-container p {
+    margin: 1rem 0 0 0;
+}
+
+.social-container {
+    margin: 1rem 0 0 0;
+}
+
+.social-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 0.5rem;
+}
+
+.contact-wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-button {
+    width: 200px;
+    margin-bottom: 100px;
+    color: white;
+    background-color: var(--color-c);
+    font-weight: bold;
+    border: none;
+    outline: inherit;
+    border-radius: 5px;
+    height: 2rem;
+    padding: 0 0.75rem;
+}
+
+.contact-button:active {
+    color: var(--color-c);
+    background-color: white;
+    border: 1px var(--color-c) solid;
+}
+
+/* Reactive Design */
+
+@media only screen and (max-width: 1300px) {
+    .left-container {
+        position: static;
+        width: 100%;
+    }
+
+    .about-container {
+        padding: 3rem 30px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .about-container {
+        width: 300px;
+    }
+}
