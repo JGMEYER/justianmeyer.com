@@ -16,11 +16,6 @@
     color: white;
     padding: 0.75rem;
     margin-top: 1rem;
-    margin-right: 1rem;
-}
-
-.portfolio-item-container:last-child {
-    margin-right: 0;
 }
 
 .technologies-container {
