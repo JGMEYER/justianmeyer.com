@@ -84,6 +84,11 @@ h3 {
     text-transform: uppercase;
 }
 
+h4 {
+    margin: 0;
+    color: white;
+}
+
 p {
     font-family: 'Source Sans Pro', sans-serif;
 }

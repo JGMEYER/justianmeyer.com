@@ -1,6 +1,7 @@
 import './Right.css';
 
 import CertificationsContent from '../CertificationsContent/CertificationsContent'
+import PortfolioContent from '../PortfolioContent/PortfolioContent'
 
 function Right() {
     return (
@@ -9,11 +10,12 @@ function Right() {
                 <CertificationsContent />
             </div>
             <div className="right-content-wrapper" style={{ backgroundColor: 'var(--color-b)' }}>
+                <PortfolioContent />
             </div>
-            <div className="right-content-wrapper" style={{ backgroundColor: 'var(--color-c)' }}>
-            </div>
-            <div className="right-content-wrapper" style={{ backgroundColor: 'var(--color-d)' }}>
-            </div>
+            {/* <div className="right-content-wrapper" style={{ backgroundColor: 'var(--color-c)' }}>
+            </div> */}
+            {/* <div className="right-content-wrapper" style={{ backgroundColor: 'var(--color-d)' }}>
+            </div> */}
 
             <footer>
                 <p>&copy; Justian Meyer, 2021</p>

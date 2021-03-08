@@ -1,0 +1,59 @@
+.portfolio-content-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.portfolio-item-container {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--color-a);
+    color: white;
+    padding: 0.75rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.portfolio-item-container:last-child {
+    margin-right: 0;
+}
+
+.technologies-container {
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.technologies-container > div {
+    margin: 0.1rem;
+}
+
+/* Reactive Design */
+
+@media only screen and (max-width: 1500px) {
+    .portfolio-content-container {
+        flex-direction: column;
+        align-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .portfolio-content-container {
+        flex-direction: row;
+    }
+    .portfolio-item-container {
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .portfolio-content-container {
+        flex-direction: column;
+    }
+}
