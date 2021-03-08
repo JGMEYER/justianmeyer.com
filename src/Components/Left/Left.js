@@ -1,6 +1,6 @@
 import './Left.css';
 import github_64 from '../../images/icons/github_64.png';
-import linkedin_64 from '../../images/icons/linkedin_64.webp';
+import linkedin_64 from '../../images/icons/linkedin_64.png';
 
 function Left() {
     return (
