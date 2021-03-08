@@ -1,0 +1,19 @@
+.certification-link {
+    text-decoration: none;
+}
+
+.certification-wrapper {
+    color: white;
+    background-color: var(--color-b);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+    -webkit-box-shadow: rgba(0,0,0,0.3) 0px 0 10px;
+    -moz-box-shadow: rgba(0,0,0,0.3) 0 0 10px;
+    box-shadow: rgba(0,0,0,0.3) 0 0 10px;
+}
+/* .certification-wrapper:after {
+    background: linear-gradient(0deg, var(--color-b) 0%, rgba(255,255,255,1) 100%);
+} */

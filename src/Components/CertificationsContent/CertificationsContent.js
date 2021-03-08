@@ -1,27 +1,40 @@
 import './CertificationsContent.css';
+import CertificationItem from '../CertificationItem/CertificationItem';
 
 function CertificationsContent() {
     return (
         <div>
             <h3>Certifications</h3>
-            <div className="certification-wrapper">
-                Front-End Engineer Career Path (350 Hours)
-            </div>
-            <div className="certification-wrapper">
-                Learn HTML (9 Hours)
-            </div>
-            <div className="certification-wrapper">
-                Learn CSS (20 Hours)
-            </div>
-            <div className="certification-wrapper">
-                Learn Javascript (30 Hours)
-            </div>
-            <div className="certification-wrapper">
-                Building Interactive Javascript Websites (7 Hours)
-            </div>
-            <div className="certification-wrapper">
-                Learn React (20 Hours)
-            </div>
+            <CertificationItem
+                certName="Front-End Engineer Career Path"
+                hours="350"
+                certLink="certifications/front-end-engineer-career-path.pdf"
+            ></CertificationItem>
+            <CertificationItem
+                certName="Learn HTML"
+                hours="9"
+                certLink="certifications/learn-html-course.pdf"
+            ></CertificationItem>
+            <CertificationItem
+                certName="Learn CSS"
+                hours="20"
+                certLink="certifications/learn-css-course.pdf"
+            ></CertificationItem>
+            <CertificationItem
+                certName="Learn Javascript"
+                hours="30"
+                certLink="certifications/learn-javascript-course.pdf"
+            ></CertificationItem>
+            <CertificationItem
+                certName="Building Interactive Javascript Websites"
+                hours="7"
+                certLink="certifications/building-interactive-javascript-websites-course.pdf"
+            ></CertificationItem>
+            <CertificationItem
+                certName="Learn React"
+                hours="20"
+                certLink="certifications/learn-react-course.pdf"
+            ></CertificationItem>
         </div>
     )
 }

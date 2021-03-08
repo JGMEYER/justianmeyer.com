@@ -31,6 +31,7 @@ function PortfolioContent() {
                         <IconBadge icon={iconReact} iconBgColor='#6AD1FB' name='React'></IconBadge>
                     </div>
                 </div>
+                <div className="portfolio-item-container empty"></div>
             </div>
         </div>
     );
