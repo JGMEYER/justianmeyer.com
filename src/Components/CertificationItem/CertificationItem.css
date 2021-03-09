@@ -14,3 +14,9 @@
     -moz-box-shadow: rgba(0,0,0,0.3) 0 0 10px;
     box-shadow: rgba(0,0,0,0.3) 0 0 10px;
 }
+
+.certification-wrapper:hover {
+    color: var(--color-b);
+    background-color: var(--color-0);
+    transition: background-color 0.08s linear;
+}
