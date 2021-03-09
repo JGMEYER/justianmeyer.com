@@ -3,7 +3,11 @@
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.portfolio-item-link {
+    text-decoration: none;
 }
 
 .portfolio-item-container {
@@ -21,7 +25,7 @@
     border-radius: 0.25rem;
     -webkit-box-shadow: rgba(0,0,0,0.3) 0px 0 10px;
     -moz-box-shadow: rgba(0,0,0,0.3) 0 0 10px;
-    box-shadow: rgba(255,255,255,0.3) 0 0 10px;
+    box-shadow: rgba(0,0,0,1) 0 0 5px;
 }
 
 .portfolio-item-container.empty {
