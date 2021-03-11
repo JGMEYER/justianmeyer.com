@@ -8,7 +8,9 @@ function IconBadge(props) {
             <div className="icon-badge-icon-container" style={{ backgroundColor: props.iconBgColor }}>
                 <img className="icon-badge-icon" src={props.icon} alt={`${props.name}-icon`}></img>
             </div>
-            <div className="icon-badge-name-container">{props.name}</div>
+            <div className="icon-badge-name-container">
+                <span>{props.name}</span>
+            </div>
         </div>
     );
 }

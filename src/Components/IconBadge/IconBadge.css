@@ -1,34 +1,49 @@
 :root {
-    --icon-badge-border-radius: 0.25rem;
+    --icon-badge-border-radius: 0.3em;
 }
 
 .icon-badge {
+    font-size: 0.6rem;
     display: inline-flex;
     border-radius: var(--icon-badge-border-radius);
+    -webkit-border-radius: var(--icon-badge-border-radius);
+    -moz-border-radius: var(--icon-badge-border-radius);
+    -ms-border-radius: var(--icon-badge-border-radius);
+    -o-border-radius: var(--icon-badge-border-radius);
+}
+
+.icon-badge:not(:last-child) {
+    margin-right: 10px;
 }
 
 .icon-badge-icon-container {
     display: inline-block;
-    width: 1.86rem;
-    height: 1.86rem;
     color: white;
     border-radius: var(--icon-badge-border-radius) 0 0 var(--icon-badge-border-radius);
-    content: "X";
+    -webkit-border-radius: var(--icon-badge-border-radius) 0 0 var(--icon-badge-border-radius);
+    -moz-border-radius: var(--icon-badge-border-radius) 0 0 var(--icon-badge-border-radius);
+    -ms-border-radius: var(--icon-badge-border-radius) 0 0 var(--icon-badge-border-radius);
+    -o-border-radius: var(--icon-badge-border-radius) 0 0 var(--icon-badge-border-radius);
 }
 
 .icon-badge-icon {
-    width: 1.2rem;
-    height: 1.2rem;
-    padding: 0.33rem;
+    display: flex;
+    align-items: center;
+    width: 1.7em;
+    height: 1.7em;
+    padding: 0.4em 0.4em;
 }
 
 .icon-badge-name-container {
-    display: inline-block;
-    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
     font-weight: bold;
     color: white;
-    background-color: #000000;
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(59,59,59,1) 100%);
+    background-color: black;
     border-radius: 0 var(--icon-badge-border-radius) var(--icon-badge-border-radius) 0;
-    padding: 0.5rem 0.5rem 0.5rem 0.45rem;
+    -webkit-border-radius: 0 var(--icon-badge-border-radius) var(--icon-badge-border-radius) 0;
+    -moz-border-radius: 0 var(--icon-badge-border-radius) var(--icon-badge-border-radius) 0;
+    -ms-border-radius: 0 var(--icon-badge-border-radius) var(--icon-badge-border-radius) 0;
+    -o-border-radius: 0 var(--icon-badge-border-radius) var(--icon-badge-border-radius) 0;
+    padding: 0 0.5em 0.2em 0.5em;
 }
