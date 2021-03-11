@@ -3,7 +3,7 @@ import CertificationItem from '../CertificationItem/CertificationItem';
 
 function CertificationsContent() {
     return (
-        <div>
+        <div className="certifications-content-container">
             <CertificationItem
                 certName="Front-End Engineer Career Path"
                 hours="350"

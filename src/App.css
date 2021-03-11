@@ -1,3 +1,149 @@
+/* Global Variables */
+
+:root {
+    --color-dark-blue: hsl(191, 44%, 35%);
+    --color-light-blue: hsl(188, 51%, 56%);
+    --color-orange: hsl(14, 81%, 65%);
+    --color-red: hsl(6, 73%, 55%);
+    --color-brown: hsl(356, 59%, 15%);
+    --color-gray: #1b2933;
+
+    --color-0: white;
+    --color-a: var(--color-dark-blue);
+    --color-b: var(--color-light-blue);
+    --color-c: var(--color-orange);
+    --color-d: var(--color-red);
+    --color-e: var(--color-brown);
+    --color-f: var(--color-gray);
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: ClearSans-Regular;
+    src: url('fonts/ClearSans-Regular.ttf');
+}
+
+/* Animations */
+
+@keyframes slideInFromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Global Styles */
+
+html {
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    font-size: 24px;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+}
+
+header {
+    display: flex;
+    height: 60px;
+    background-color: #DADADA;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.33rem;
+    color: #999999;
+    margin-top: 0em;
+    font-style: italic;
+}
+
+h3 {
+    font-family: ClearSans-Regular, serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: 0.10rem;
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+    margin-bottom: 2rem;
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Source Sans Pro', sans-serif; */
+}
+
+h4 {
+    font-size: 1.2rem;
+    margin: 0;
+    color: white;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    margin-bottom: 0.25rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    nav li {
+        opacity: 0; /* hide before animation */
+    }
+
+    nav li:nth-child(1) {
+        animation: slideInFromBottom 1s 0s forwards;
+    }
+
+    nav li:nth-child(2) {
+        animation: slideInFromBottom 1s 0.1s forwards;
+    }
+
+    nav li:nth-child(3) {
+        animation: slideInFromBottom 1s 0.2s forwards;
+    }
+}
+
+nav a {
+    color: #999999;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* App Styles */
+
 .App {
     height: 100%;
 }
