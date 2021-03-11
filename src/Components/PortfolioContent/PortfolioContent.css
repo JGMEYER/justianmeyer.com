@@ -28,10 +28,14 @@
     color: var(--color-a);
     background-color: var(--color-c);
     transition: background-color 0.1s ease-in-out;
+    -webkit-transition: background-color 0.1s ease-in-out;
+    -moz-transition: background-color 0.1s ease-in-out;
+    -ms-transition: background-color 0.1s ease-in-out;
+    -o-transition: background-color 0.1s ease-in-out;
 }
 
-.portfolio-item-container.empty {
-    opacity: 0;
+.portfolio-item-container > p {
+    font-size: 0.75rem;
 }
 
 .technologies-container {

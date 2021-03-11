@@ -19,6 +19,10 @@
     background-color: var(--color-c);
     transition: color 0.1s ease-in-out;
     transition: background-color 0.1s ease-in-out;
+    -webkit-transition: color 0.1s ease-in-out;
+    -moz-transition: color 0.1s ease-in-out;
+    -ms-transition: color 0.1s ease-in-out;
+    -o-transition: color 0.1s ease-in-out;
 }
 
 .certification-name {
@@ -28,6 +32,6 @@
 
 .certification-hours {
     font-family: ClearSans-Regular;
-    margin: 0.33rem 0 0 0;
     font-size: 0.75rem;
+    margin: 0.33rem 0 0 0;
 }
