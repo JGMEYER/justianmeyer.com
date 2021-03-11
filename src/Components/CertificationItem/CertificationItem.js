@@ -10,8 +10,11 @@ function CertificationItem(props) {
             target="_blank"
             rel="noopener noreferrer"
         >
-            <div className="certification-wrapper">
-                {props.certName} ({props.hours} Hours)
+            <div className="certification-container">
+                <div className="certification-inner-container">
+                    <p className="certification-name">{props.certName}</p>
+                    <p className="certification-hours">{props.hours} Hours</p>
+                </div>
             </div>
         </a>
     );

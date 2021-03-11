@@ -2,21 +2,36 @@
     text-decoration: none;
 }
 
-.certification-wrapper {
-    color: white;
-    background-color: var(--color-b);
-    margin-bottom: 1rem;
-    padding: 1rem;
-    -webkit-border-radius: 0.25rem;
-    -moz-border-radius: 0.25rem;
-    border-radius: 0.25rem;
-    -webkit-box-shadow: rgba(0,0,0,0.3) 0px 0 10px;
-    -moz-box-shadow: rgba(0,0,0,0.3) 0 0 10px;
-    box-shadow: rgba(0,0,0,0.3) 0 0 10px;
+.certification-container {
+    color: var(--color-0);
+    background-color: var(--color-a);
+    box-shadow: rgba(0,0,0,0.5) 0 0 5px;
+    margin: 12px 12px 0 0;
 }
 
-.certification-wrapper:hover {
-    color: var(--color-b);
-    background-color: var(--color-0);
-    transition: background-color 0.08s linear;
+.certification-inner-container {
+    padding: 0.75rem 1rem;
+    border-left: 5px solid var(--color-c);
+}
+
+.certification-inner-container:hover {
+    color: var(--color-a);
+    background-color: var(--color-c);
+    transition: color 0.1s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out;
+    -moz-transition: background-color 0.2s ease-in-out;
+    -ms-transition: background-color 0.2s ease-in-out;
+    -o-transition: background-color 0.2s ease-in-out;
+}
+
+.certification-name {
+    font-family: ClearSans-Regular;
+    margin: 0;
+}
+
+.certification-hours {
+    font-family: ClearSans-Regular;
+    font-size: 0.75rem;
+    margin: 0.33rem 0 0 0;
 }
