@@ -3,15 +3,14 @@
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    justify-content: space-between;
-}
-
-.portfolio-item-link {
-    text-decoration: none;
 }
 
 .portfolio-item-container {
-    width: 250px;
+    /* Make <a> tag act as div */
+    display: block;
+    text-decoration: none;
+
+    width: 275px;
     height: 250px;
     display: flex;
     flex-direction: column;
@@ -19,9 +18,12 @@
     color: var(--color-0);
     background-color: var(--color-a);
     padding: 0.75rem;
-    margin-bottom: 1rem;
     box-shadow: rgba(0,0,0,0.5) 0 0 5px;
     border-top: 5px solid var(--color-c);
+}
+
+.portfolio-item-container:not(:last-child) {
+    margin-right: 20px;
 }
 
 .portfolio-item-container:hover {

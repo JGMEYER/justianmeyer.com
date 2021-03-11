@@ -8,32 +8,26 @@ function PortfolioContent() {
     return (
         <div>
             <div className="portfolio-content-container">
-                <a className="portfolio-item-link" href="#">
-                    <div className="portfolio-item-container">
-                        <h4>Personal Website</h4>
-                        <p>Website for hosting experience and portfolio items.</p>
-                        <div className="technologies-container">
-                            <IconBadge icon={iconReact} iconBgColor='#6AD1FB' name='React'></IconBadge>
-                            <IconBadge icon={iconAmplify} iconBgColor='#FF9100' name='AWS Amplify'></IconBadge>
-                        </div>
+                <a className="portfolio-item-container" href="#">
+                    <h4>Personal Website</h4>
+                    <p>Website for hosting experience and portfolio items.</p>
+                    <div className="technologies-container">
+                        <IconBadge icon={iconReact} iconBgColor='#6AD1FB' name='React'></IconBadge>
+                        <IconBadge icon={iconAmplify} iconBgColor='#FF9100' name='AWS Amplify'></IconBadge>
                     </div>
                 </a>
-                <a className="portfolio-item-link" href="https://jgmeyer.github.io/js-traffic-sim/" target="_blank" rel="noopener noreferrer">
-                    <div className="portfolio-item-container">
-                        <h4>Traffic Simulation</h4>
-                        <p>Fun road builder and traffic simulator.</p>
-                        <div className="technologies-container">
-                            <IconBadge icon={iconReact} iconBgColor='#6AD1FB' name='React'></IconBadge>
-                        </div>
+                <a className="portfolio-item-container" href="https://jgmeyer.github.io/js-traffic-sim/" target="_blank" rel="noopener noreferrer">
+                    <h4>Traffic Simulation</h4>
+                    <p>Fun road builder and traffic simulator.</p>
+                    <div className="technologies-container">
+                        <IconBadge icon={iconReact} iconBgColor='#6AD1FB' name='React'></IconBadge>
                     </div>
                 </a>
-                <a className="portfolio-item-link" href="https://jgmeyer.github.io/js-chess/" target="_blank" rel="noopener noreferrer">
-                    <div className="portfolio-item-container">
-                        <h4>Chess Game</h4>
-                        <p>Classic game of chess for the browser.</p>
-                        <div className="technologies-container">
-                            <IconBadge icon={iconReact} iconBgColor='#6AD1FB' name='React'></IconBadge>
-                        </div>
+                <a className="portfolio-item-container" href="https://jgmeyer.github.io/js-chess/" target="_blank" rel="noopener noreferrer">
+                    <h4>Chess Game</h4>
+                    <p>Classic game of chess for the browser.</p>
+                    <div className="technologies-container">
+                        <IconBadge icon={iconReact} iconBgColor='#6AD1FB' name='React'></IconBadge>
                     </div>
                 </a>
             </div>
