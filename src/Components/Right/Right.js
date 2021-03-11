@@ -12,7 +12,7 @@ function Right() {
                 <h3>Certifications</h3>
                 <CertificationsContent />
             </div>
-            <div className="right-content-wrapper" style={{ backgroundColor: 'var(--color-b)' }}>
+            <div className="right-content-wrapper" style={{ backgroundColor: 'var(--color-a)' }}>
                 <h3>Portfolio</h3>
                 <PortfolioContent />
             </div>

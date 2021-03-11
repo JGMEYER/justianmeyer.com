@@ -8,7 +8,7 @@
     position: fixed;
     width: 33%;
     height: 100%;
-    background-color: var(--color-0);
+    background-color: var(--color-a);
     box-shadow: 15px 0px 12px -6px rgba(0, 0, 0, 0.15);
 }
 
@@ -42,10 +42,10 @@
 .contact-button {
     width: 200px;
     margin-bottom: 100px;
-    color: white;
-    background-color: var(--color-c);
-    font-weight: bold;
+    color: var(--color-a);
+    background-color: var(--color-d);
     border: none;
+    font-weight: bold;
     outline: inherit;
     border-radius: 5px;
     height: 2rem;
@@ -53,9 +53,9 @@
 }
 
 .contact-button:active {
-    color: var(--color-c);
-    background-color: white;
-    border: 1px var(--color-c) solid;
+    color: var(--color-d);
+    background-color: transparent;
+    border: 1px var(--color-d) solid;
 }
 
 /* Reactive Design */

@@ -1,20 +1,13 @@
 /* Global Variables */
 
 :root {
-    --color-dark-blue: hsl(191, 44%, 35%);
-    --color-light-blue: hsl(188, 51%, 56%);
-    --color-orange: hsl(14, 81%, 65%);
-    --color-red: hsl(6, 73%, 55%);
-    --color-brown: hsl(356, 59%, 15%);
-    --color-gray: #1b2933;
-
     --color-0: white;
-    --color-a: var(--color-dark-blue);
-    --color-b: var(--color-light-blue);
-    --color-c: var(--color-orange);
-    --color-d: var(--color-red);
-    --color-e: var(--color-brown);
-    --color-f: var(--color-gray);
+    --color-a: #343838;
+    --color-b: #008C9E;
+    --color-c: #00B4CC;
+    --color-d: #00DFFC;
+    --color-e: #005F68;
+    --color-f: #373b3b;
 }
 
 /* Fonts */
@@ -51,10 +44,12 @@
 /* Global Styles */
 
 html {
-    font-family: 'Roboto', sans-serif;
+    font-family: ClearSans-Regular, serif;
+    /* font-family: 'Roboto', sans-serif; */
     /* font-family: 'Montserrat', sans-serif; */
     /* font-family: 'Source Sans Pro', sans-serif; */
     font-size: 24px;
+    color: white;
     height: 100%;
 }
 
@@ -75,7 +70,9 @@ header {
 }
 
 h1 {
+    font-family: ClearSans-Regular, serif;
     font-size: 2.5rem;
+    color: var(--color-0);
     margin: 0;
 }
 

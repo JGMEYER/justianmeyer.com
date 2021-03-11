@@ -11,8 +11,10 @@ function CertificationItem(props) {
             rel="noopener noreferrer"
         >
             <div className="certification-container">
-                <p className="certification-name">{props.certName}</p>
-                <p className="certification-hours">{props.hours} Hours</p>
+                <div className="certification-inner-container">
+                    <p className="certification-name">{props.certName}</p>
+                    <p className="certification-hours">{props.hours} Hours</p>
+                </div>
             </div>
         </a>
     );
