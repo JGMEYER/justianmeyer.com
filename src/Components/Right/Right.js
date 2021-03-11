@@ -11,12 +11,12 @@ function Right() {
                 <p>Hi, I'm Justian, a frontend engineer</p>
             </div>
             <div className="right-content-wrapper">
-                <h3>Certifications</h3>
-                <CertificationsContent />
-            </div>
-            <div className="right-content-wrapper">
                 <h3>Portfolio</h3>
                 <PortfolioContent />
+            </div>
+            <div className="right-content-wrapper">
+                <h3>Certifications</h3>
+                <CertificationsContent />
             </div>
 
             <footer>
