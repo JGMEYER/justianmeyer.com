@@ -36,7 +36,6 @@ function PortfolioContent() {
                         </div>
                     </div>
                 </a>
-                <div className="portfolio-item-container empty"></div>
             </div>
         </div >
     );
