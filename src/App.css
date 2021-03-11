@@ -50,6 +50,7 @@ html {
     /* font-family: 'Source Sans Pro', sans-serif; */
     font-size: 24px;
     color: white;
+    background-color: var(--color-a);
     height: 100%;
 }
 
