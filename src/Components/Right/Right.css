@@ -5,6 +5,7 @@
 }
 
 .right-content-wrapper {
+    background-color: var(--color-f);
     min-height: 300px;
     padding: 2.5rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
