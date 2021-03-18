@@ -19,7 +19,7 @@ function Left() {
                 </div>
             </div>
             <div className="contact-wrapper">
-                <button className="contact-button">Contact</button>
+                <button className="contact-button hvr-sweep-to-bottom">Contact</button>
             </div>
         </div>
     );
