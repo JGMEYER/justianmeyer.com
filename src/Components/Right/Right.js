@@ -1,5 +1,6 @@
 import './Right.css';
 
+import AboutContent from '../AboutContent/AboutContent'
 import CertificationsContent from '../CertificationsContent/CertificationsContent'
 import PortfolioContent from '../PortfolioContent/PortfolioContent'
 
@@ -8,7 +9,7 @@ function Right() {
         <div className="right-container">
             <div className="right-content-wrapper">
                 <h3>About</h3>
-                <p>Hi, I'm Justian, a frontend engineer</p>
+                <AboutContent />
             </div>
             <div className="right-content-wrapper">
                 <h3>Portfolio</h3>
