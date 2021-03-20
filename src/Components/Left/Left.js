@@ -1,6 +1,6 @@
 import './Left.css';
-import github_64 from '../../images/icons/github_64.png';
-import linkedin_64 from '../../images/icons/linkedin_64.png';
+import github_svg from '../../images/icons/github-white.svg';
+import linkedin_svg from '../../images/icons/linkedin-white.svg';
 
 function Left() {
     return (
@@ -11,10 +11,10 @@ function Left() {
                 <p>Self-taught Frontend Engineer, Professional Backend Background.</p>
                 <div className="social-container">
                     <a href="https://github.com/JGMEYER" target="_blank" rel="noopener noreferrer">
-                        <img className="social-icon" src={github_64} alt="github icon" />
+                        <img className="social-icon" src={github_svg} alt="github icon" />
                     </a>
                     <a href="https://www.linkedin.com/in/justianmeyer/" target="_blank" rel="noopener noreferrer">
-                        <img className="social-icon" src={linkedin_64} alt="linkedin icon" />
+                        <img className="social-icon" src={linkedin_svg} alt="linkedin icon" />
                     </a>
                 </div>
             </div>
