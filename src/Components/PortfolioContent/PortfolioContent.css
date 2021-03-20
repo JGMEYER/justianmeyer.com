@@ -36,7 +36,7 @@
     -o-transition: background-color 0.1s ease-in-out;
 }
 
-.portfolio-item-container > p {
+.portfolio-item-container p {
     font-size: 0.75rem;
 }
 

@@ -1,9 +1,10 @@
+import FadeInSection from "../FadeInSection/FadeInSection";
 
 function AboutContent() {
     return (
-        <div>
+        <FadeInSection>
             <p>Hi, I'm Justian, a frontend engineer with backend experience at top Silicon Valley companies.</p>
-        </div>
+        </FadeInSection>
     );
 }
 
