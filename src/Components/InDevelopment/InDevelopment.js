@@ -2,7 +2,7 @@ import './InDevelopment.css';
 
 function InDevelopment() {
     return (
-        <div class="in-development">
+        <div className="in-development">
             In Development
         </div>
     )
