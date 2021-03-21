@@ -8,7 +8,7 @@ function PortfolioContent() {
     return (
         <div>
             <div className="portfolio-content-container">
-                <a className="portfolio-item-container" href="#">
+                <a className="portfolio-item-container" href="/">
                     <FadeInSection>
                         <h4>Personal Website</h4>
                         <p>Website for hosting experience and portfolio items.</p>
