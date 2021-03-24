@@ -9,7 +9,9 @@
     width: 33%;
     height: 100%;
     background-color: var(--color-f);
-    box-shadow: 10px 0px 20px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 10px 0px 20px 0px rgba(0, 0, 0, 0.20);
+    border-left: 2px solid rgba(0, 0, 0, 0.2);
+    border-right: 2px solid rgba(0, 0, 0, 0.2);
     /*Free Diagonal Lines SVG provided by SVGeez.com - CC 4.0 License - © 2019 Megan Young */
     background-size:60px 60px;
     background-repeat:repeat;
