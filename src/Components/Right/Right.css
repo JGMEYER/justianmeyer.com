@@ -1,7 +1,5 @@
 .right-container {
-    width: 67%;
-    margin-left: 33%;
-    overflow: scroll;
+    width: 100%;
 }
 
 .right-content-wrapper {
@@ -24,14 +22,4 @@ footer {
 
 footer p {
     margin: 0;
-}
-
-/* Reactive Design */
-
-@media only screen and (max-width: 1650px) {
-    .right-container {
-        width: 100%;
-        margin-left: 0;
-        overflow: visible;
-    }
 }
