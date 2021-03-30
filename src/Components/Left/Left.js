@@ -14,7 +14,7 @@ function Left() {
             >
                 <Background>
                     <div className="image-stripes"></div>
-                    <img src={earth_img}></img>
+                    <img src={earth_img} style={{ width: '100vw' }}></img>
                 </Background>
             </Parallax>
             <div className="about-container">
