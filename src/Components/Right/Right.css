@@ -28,7 +28,7 @@ footer p {
 
 /* Reactive Design */
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1650px) {
     .right-container {
         width: 100%;
         margin-left: 0;
