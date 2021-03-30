@@ -1,10 +1,22 @@
+import { Parallax, Background } from 'react-parallax';
+
 import './Left.css';
+import earth_img from '../../images/earth.jpg';
 import github_svg from '../../images/icons/github-white.svg';
 import linkedin_svg from '../../images/icons/linkedin-white.svg';
 
 function Left() {
     return (
         <div className="left-container">
+            <Parallax
+                strength={300}
+                className="parallax-container"
+            >
+                <Background>
+                    <div className="image-stripes"></div>
+                    <img src={earth_img}></img>
+                </Background>
+            </Parallax>
             <div className="about-container">
                 <h1>Justian Meyer</h1>
                 <h2>Frontend Engineer</h2>
