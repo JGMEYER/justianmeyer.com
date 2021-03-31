@@ -2,12 +2,14 @@
 
 :root {
     --color-0: white;
-    --color-a: #343838;
+    /* --color-a: #2E2F30; */
+    --color-a: #1D1D1D;
     --color-b: #008C9E;
     --color-c: #00B4CC;
     --color-d: #00DFFC;
     --color-e: #005F68;
-    --color-f: #2A2E2E;
+    --color-f: #111111;
+    /* --color-f: #1D1E1F; */
 }
 
 /* Fonts */
