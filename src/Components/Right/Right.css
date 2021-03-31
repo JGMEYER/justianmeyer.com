@@ -6,7 +6,7 @@
     background-color: var(--color-f);
     min-height: 100px;
     padding: 2.5rem;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 footer {

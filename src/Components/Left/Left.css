@@ -7,7 +7,7 @@
     justify-content: center;
     position: relative;
     width: 100%;
-    height: 600px;
+    height: 800px;
     background-color: var(--color-f);
 }
 
@@ -61,8 +61,9 @@
     width: 200px;
     height: 2rem;
     margin-bottom: 100px;
-    background-color: var(--color-f);
+    background-color: transparent;
     border: 1px solid var(--color-d);
+    box-shadow: rgba(0,0,0,0.5) 0 0 5px;
     outline: inherit;
     padding: 0 0.75rem;
     cursor: pointer;
