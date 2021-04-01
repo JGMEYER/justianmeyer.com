@@ -2,14 +2,14 @@
 
 :root {
     --color-0: white;
-    /* --color-a: #2E2F30; */
     --color-a: #1D1D1D;
     --color-b: #008C9E;
     --color-c: #00B4CC;
     --color-d: #00DFFC;
     --color-e: #005F68;
     --color-f: #111111;
-    /* --color-f: #1D1E1F; */
+    --color-g: #CBC7C7;
+    --color-h: #444848;
 }
 
 /* Fonts */
@@ -47,9 +47,6 @@
 
 html {
     font-family: ClearSans-Regular, serif;
-    /* font-family: 'Roboto', sans-serif; */
-    /* font-family: 'Montserrat', sans-serif; */
-    /* font-family: 'Source Sans Pro', sans-serif; */
     font-size: 24px;
     color: white;
     background-color: var(--color-a);
@@ -88,23 +85,27 @@ h2 {
 
 h3 {
     font-family: ClearSans-Regular, serif;
-    font-size: 1.25rem;
-    font-weight: 500;
-    letter-spacing: 0.25rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.4rem;
     text-transform: uppercase;
     color: white;
     margin: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 2.33rem;
+    text-align: center;
 }
 
 h4 {
     font-size: 1.2rem;
+    letter-spacing: 0.05rem;
     margin: 0;
     color: white;
 }
 
 p {
-    font-family: 'Source Sans Pro', sans-serif;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    font-family: 'Roboto';
+    letter-spacing: 0.005em;
 }
 
 nav ul {

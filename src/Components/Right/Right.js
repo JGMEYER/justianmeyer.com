@@ -8,15 +8,15 @@ function Right() {
     return (
         <div className="right-container">
             <div className="right-content-wrapper">
-                <h3>About</h3>
+                <h3 style={{ color: 'var(--color-g)' }}>About</h3>
                 <AboutContent />
             </div>
-            <div className="right-content-wrapper">
-                <h3>Portfolio</h3>
+            <div className="right-content-wrapper" style={{ backgroundColor: 'var(--color-g)' }}>
+                <h3 style={{ color: 'black' }}>Portfolio</h3>
                 <PortfolioContent />
             </div>
             <div className="right-content-wrapper">
-                <h3>Certifications</h3>
+                <h3 style={{ color: 'var(--color-g)' }}>Certifications</h3>
                 <CertificationsContent />
             </div>
 
