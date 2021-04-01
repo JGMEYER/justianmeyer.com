@@ -4,7 +4,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .portfolio-item-container {
@@ -12,41 +12,55 @@
     display: block;
     text-decoration: none;
 
-    width: 275px;
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    width: 300px;
+    height: 300px;
     color: var(--color-0);
     background-color: var(--color-a);
-    padding: 0.75rem;
     box-shadow: rgba(0,0,0,0.5) 0 0 5px;
-    border-top: 5px solid var(--color-d);
+    border-bottom: 5px solid var(--color-d);
 }
 
 .portfolio-item-container:hover {
     color: var(--color-a);
     background-color: var(--color-c);
-    transition: background-color 0.1s ease-in-out;
-    -webkit-transition: background-color 0.1s ease-in-out;
-    -moz-transition: background-color 0.1s ease-in-out;
-    -ms-transition: background-color 0.1s ease-in-out;
-    -o-transition: background-color 0.1s ease-in-out;
+    transition: background-color 0.1s ease;
+    -webkit-transition: background-color 0.1s ease;
+    -moz-transition: background-color 0.1s ease;
+    -ms-transition: background-color 0.1s ease;
+    -o-transition: background-color 0.1s ease;
 }
 
-.portfolio-item-container p {
-    font-size: 0.75rem;
+.portfolio-item-container-inner {
+    height: 100%;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.portfolio-item-container-inner h4 {
+    margin-top: 2.5rem;
 }
 
 .technologies-container {
     display:flex;
     flex-wrap: wrap;
+    justify-content: center;
     width: 100%;
-    margin-top: 1rem;
+    margin-bottom: 2.5rem;
 }
 
 .technologies-container > div {
     margin: 0.1rem;
+}
+
+.technology-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.technology-icon:not(:last-child) {
+    margin-right: 0.1rem;
 }
 
 /* Reactive Design */
@@ -61,9 +75,6 @@
 @media only screen and (max-width: 1300px) {
     .portfolio-content-container {
         flex-direction: row;
-    }
-    .portfolio-item-container {
-        height: 200px;
     }
 }
 
