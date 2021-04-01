@@ -3,7 +3,7 @@ import React from 'react';
 import './FadeInSection.css';
 
 function FadeInSection(props) {
-    const [isVisible, setVisible] = React.useState(true);
+    const [isVisible, setVisible] = React.useState(false);
     const domRef = React.useRef();
     React.useEffect(() => {
         const current = domRef.current;
