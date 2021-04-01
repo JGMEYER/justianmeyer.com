@@ -13,8 +13,8 @@ function Left() {
                 className="parallax-container"
             >
                 <Background>
-                    <div className="image-stripes"></div>
-                    <img src={earth_img} style={{ width: '100vw' }}></img>
+                    <div className="image-parallax-stripes"></div>
+                    <img className="image-parallax-main" src={earth_img}></img>
                 </Background>
             </Parallax>
             <div className="about-container">
