@@ -1,3 +1,15 @@
+.about-content-wrapper {
+    max-width: 1000px;
+}
+
+.about-content-wrapper p:first-child {
+    margin-top: 0;
+}
+
+.about-content-wrapper p:last-child {
+    margin-bottom: 0;
+}
+
 .about-content-wrapper em {
     color: var(--color-d);
 }
