@@ -1,5 +1,6 @@
 .portfolio-content-container {
     width: 100%;
+    max-width: 1000px;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -21,10 +22,6 @@
     padding: 0.75rem;
     box-shadow: rgba(0,0,0,0.5) 0 0 5px;
     border-top: 5px solid var(--color-d);
-}
-
-.portfolio-item-container:not(:last-child) {
-    margin-right: 20px;
 }
 
 .portfolio-item-container:hover {
