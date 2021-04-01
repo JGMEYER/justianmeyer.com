@@ -8,7 +8,11 @@ function FadeInSection(props) {
     React.useEffect(() => {
         const current = domRef.current;
         const observer = new IntersectionObserver(entries => {
-            entries.forEach(entry => setVisible(entry.isIntersecting));
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    setVisible(entry.isIntersecting)
+                }
+            });
         });
         observer.observe(current);
         return () => observer.unobserve(current);
