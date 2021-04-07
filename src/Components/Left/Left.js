@@ -1,7 +1,7 @@
 import { Parallax, Background } from 'react-parallax';
 
 import './Left.css';
-import earth_img from '../../images/earth.jpg';
+import earth_img from '../../images/earth-min.jpg';
 import github_svg from '../../images/icons/github-white.svg';
 import linkedin_svg from '../../images/icons/linkedin-white.svg';
 
@@ -14,7 +14,7 @@ function Left() {
             >
                 <Background>
                     <div className="image-parallax-stripes"></div>
-                    <img className="image-parallax-main" src={earth_img}></img>
+                    <img className="image-parallax-main" src={earth_img} alt="earth from space"></img>
                 </Background>
             </Parallax>
             <div className="about-container">
