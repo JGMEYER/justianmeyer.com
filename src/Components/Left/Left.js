@@ -31,9 +31,14 @@ function Left() {
                 </div>
             </div>
             <div className="contact-wrapper">
-                <button className="contact-button"><p>Contact</p></button>
+                <button
+                    className="contact-button"
+                    onClick={() => window.location.href = 'mailto:justian.meyer.web@gmail.com'}
+                >
+                    <p>Contact</p>
+                </button>
             </div>
-        </div>
+        </div >
     );
 }
 
